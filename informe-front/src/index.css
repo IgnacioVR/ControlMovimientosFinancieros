@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.input-style {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-700;
+}
+
+.label-style {
+  @apply block text-black mb-2 font-semibold;
+}
+
+.button-style {
+  @apply cursor-pointer w-full bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition duration-200;
+}
+
+.card-border-style {
+  @apply bg-white border border-gray-500 rounded-lg shadow p-6 text-left m-4;
+}
+
+.title-style {
+  @apply text-xl font-bold text-black mb-4;
+}
+
+.subtitle-style {
+  @apply text-gray-600 mb-6;
+}
+
+.title-table-style {
+  @apply px-4 py-3 text-left text-sm font-medium text-black;
+}
+
+.date-table-style {
+  @apply px-4 py-3 text-sm text-gray-900;
+}
