@@ -1,5 +1,6 @@
 import { pool } from '../config/connectionbd.js';
 import { Movement } from '../models/Movement.js';
+import supabase from '../config/supabaseClient.js';
 
 export const movementsController = {
 
