@@ -9,6 +9,7 @@ function MonthlyReport() {
   const [totalDebito, setTotalDebito] = useState();
   const [totalCredito, setTotalCredito] = useState();
   const [balance, setBalance] = useState();
+  console.log(totalDebito, totalCredito, balance);
 
   const handleGenerarInforme = (e: { preventDefault: () => void }) => {
     e.preventDefault();
@@ -67,7 +68,7 @@ function MonthlyReport() {
         </button>
       </form>
 
-      {balance ? (
+      {totalCredito || totalDebito ? (
         <>
           {/* Informe Generado */}
           <div className="subtitle-style"></div>
