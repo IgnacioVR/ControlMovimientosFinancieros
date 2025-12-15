@@ -9,7 +9,6 @@ function MonthlyReport() {
   const [totalDebito, setTotalDebito] = useState();
   const [totalCredito, setTotalCredito] = useState();
   const [balance, setBalance] = useState();
-  console.log(totalDebito, totalCredito, balance);
 
   const handleGenerarInforme = (e: { preventDefault: () => void }) => {
     e.preventDefault();
