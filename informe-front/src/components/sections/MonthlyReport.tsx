@@ -67,7 +67,7 @@ function MonthlyReport() {
         </button>
       </form>
 
-      {balance ? (
+      {totalCredito || totalDebito ? (
         <>
           {/* Informe Generado */}
           <div className="subtitle-style"></div>
